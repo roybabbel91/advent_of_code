@@ -41,5 +41,4 @@ while least.length > 1 do
   idx += 1
 end
 
-
 puts most.first.to_i(2) * least.first.to_i(2)
