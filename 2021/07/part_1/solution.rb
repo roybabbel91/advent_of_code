@@ -1,4 +1,4 @@
 nums = File.readlines("../data.txt", ",", chomp: true).map(&:to_i).sort
-mode = nums[nums.length / 2]
+median = nums.median
 
-puts nums.sum { |n| (n - mode).abs }
+puts nums.sum { |n| (n - median).abs }
